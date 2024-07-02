@@ -3,11 +3,11 @@
         "source_path": "Fibonnaci Folge",
         "custom_fields_schema": [
             {
-                "name": "Nummer", 
+                "name": "Nummer",
                 "type": "per_model_number"
             },
             {
-                "name": "Anzahl", 
+                "name": "Anzahl",
                 "type": "per_model_number"
             }
         ]
@@ -27,14 +27,18 @@
         {
             "input_text": "Schreib ein python code der die fibonacci folge berechnet!",
             "tags": [
-                "Code, Fibonacci"
+                "Code",
+                "Fibonacci"
             ],
-            "output_text_a": "Response to the prompt from the first model (A)",
-            "output_text_b": "Response to the prompt from the other model (B)",
-            "output_text_c": "Response to the prompt from the other model (C)",
+            "output_text_a": "Response to the prompt from Gemma2 27B",
+            "output_text_b": "Response to the prompt from Gemma2 7B",
+            "output_text_c": "Response to the prompt from ChatGPT",
             "score": -1.25,
-            "individual_rater_scores": [],
-            "custom_fields": {}
+            "individual_rater_scores": [0.5, -1.0, -2.0],
+            "custom_fields": {
+                "Nummer": 1,
+                "Anzahl": 3
+            }
         }
     ]
 }
