@@ -1,0 +1,40 @@
+{
+    "metadata": {
+        "source_path": "Fibonnaci Folge",
+        "custom_fields_schema": [
+            {
+                "name": "Nummer", 
+                "type": "per_model_number"
+            },
+            {
+                "name": "Anzahl", 
+                "type": "per_model_number"
+            }
+        ]
+    },
+    "models": [
+        {
+            "name": "Gemma2 27B"
+        },
+        {
+            "name": "Gemma2 7B"
+        },
+        {
+            "name": "ChatGPT"
+        }
+    ],
+    "examples": [
+        {
+            "input_text": "Schreib ein python code der die fibonacci folge berechnet!",
+            "tags": [
+                "Code, Fibonacci"
+            ],
+            "output_text_a": "Response to the prompt from the first model (A)",
+            "output_text_b": "Response to the prompt from the other model (B)",
+            "output_text_c": "Response to the prompt from the other model (C)",
+            "score": -1.25,
+            "individual_rater_scores": [],
+            "custom_fields": {}
+        }
+    ]
+}
